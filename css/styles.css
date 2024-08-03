@@ -204,7 +204,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 .hero-text {
   font-weight: 400;
@@ -216,9 +216,18 @@ img {
 /* #endregion Hero */
 
 /* #region portfolio */
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.contants-portfolio {
+}
+
 .portfolio {
   background-color: #f4f4fd;
 }
+
 .portfolio-logo {
   font-weight: 700;
   font-size: 36px;
@@ -227,9 +236,20 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+
+.protfolio-cart-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: 0;
+}
+
 .protfolio-cart {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .cart-content {
   font-weight: 500;
