@@ -129,6 +129,7 @@ img {
 
 .main-title {
   max-width: 496px;
+  margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -167,7 +168,7 @@ img {
 /* #region Hero */
 
 .hero {
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
