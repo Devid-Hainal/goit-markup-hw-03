@@ -2,10 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  margin: 0;
+
 }
 
 /* reset */
@@ -135,6 +133,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
+  
+  
 }
 
 .button {
@@ -185,16 +186,11 @@ img {
 }
 
 .hero-item-titlm {
-  display: flex;
   align-items: center;
   gap: 24px;
 }
 
 .hero-item-list {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -309,7 +305,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .project-logo-title {
@@ -344,13 +339,13 @@ img {
   padding: 100px 0;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 100px 0;
   margin-bottom: 16px;
 }
 .footer-logo-part {
